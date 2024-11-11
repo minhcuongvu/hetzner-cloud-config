@@ -35,4 +35,5 @@ runcmd:
   - apt -y update
   - apt -y install postgresql-17
   - curl -o /etc/postgresql/17/main/postgresql.conf https://raw.githubusercontent.com/minhcuongvu/postgresql/refs/heads/master/postgresql-1.conf
+  - chmod 0644 /etc/postgresql/17/main/postgresql.conf
   - reboot
