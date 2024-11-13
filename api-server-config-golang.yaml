@@ -12,6 +12,7 @@ packages:
   - ufw
   - certbot
   - golang
+  - make
 package_update: true
 package_upgrade: true
 runcmd:
